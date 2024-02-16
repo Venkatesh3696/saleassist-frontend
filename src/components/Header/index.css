@@ -1,0 +1,14 @@
+.header-container {
+  width: 90vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.icon {
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
