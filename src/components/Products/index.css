@@ -1,5 +1,19 @@
-.products-container {
+ul {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.main-container {
+  width: 100vw;
+}
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
