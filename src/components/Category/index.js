@@ -4,11 +4,11 @@ import "./index.css";
 const Category = () => {
   return (
     <div className="category-container">
-      <p>Bags</p>
-      <p>Travel</p>
-      <p>Accesories</p>
-      <p>Giting</p>
-      <p>Jewelary</p>
+      <h1>Bags</h1>
+      <h1>Travel</h1>
+      <h1>Accesories</h1>
+      <h1>Giting</h1>
+      <h1>Jewelary</h1>
     </div>
   );
 };

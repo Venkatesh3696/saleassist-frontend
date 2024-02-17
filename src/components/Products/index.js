@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CiExport } from "react-icons/ci";
 import ProductCard from "../ProductCard";
 // const url = "http://localhost:3000/bags";
+import "./index.css";
 
 const bagsData = {
   bags: [
@@ -85,9 +86,11 @@ const Products = () => {
   return (
     <div className="main-container">
       <div className="products-container">
-        <p>Bags . Backpacks</p>
-        <p>13 Products</p>
-        <CiExport />
+        <h1>Bags . Backpacks</h1>
+        <div className="two">
+          <h1 className="pro">13 Products</h1>
+          <CiExport />
+        </div>
       </div>
       <ul>
         {products.map((each) => {

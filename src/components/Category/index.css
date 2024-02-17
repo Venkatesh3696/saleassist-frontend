@@ -4,5 +4,8 @@
   align-items: center;
   color: #ffffff;
   width: 80vw;
-  font-size: 16px;
+  height: 50px;
+}
+h1 {
+  font-size: 24px;
 }

@@ -5,7 +5,7 @@ import "./index.css";
 const ProductCard = (props) => {
   const { id, title, price, salePrice, imageUrl } = props.details;
   return (
-    <li>
+    <li key={id}>
       <div className="image-bg">
         <img alt="bag" src={imageUrl} />
         <h1>{title}</h1>

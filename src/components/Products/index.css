@@ -1,19 +1,32 @@
+.main-container {
+  width: 100%;
+  padding: 0;
+}
+
 ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  gap: 20px;
+  width: 90%;
 }
-.main-container {
-  width: 100vw;
-}
+
 .products-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 90%;
+  font-size: 30px;
+}
+.pro {
+  justify-self: flex-end;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

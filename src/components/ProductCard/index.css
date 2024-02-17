@@ -1,8 +1,9 @@
 li {
   list-style: none;
-  width: 20vw;
+  width: 20%;
   height: 600px;
   display: flex;
+  background-color: #80808022;
 }
 img {
   height: 80%;
